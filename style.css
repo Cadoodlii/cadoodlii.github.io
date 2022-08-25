@@ -79,13 +79,14 @@ nav {
     background:linear-gradient(to bottom right, rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.24));
     border:5px solid rgb(0, 0, 0);
     border-style:dashed;
-    position:absolute;
-    padding:8vh;
-    top:20vh;
-    left:10vh;
-    right:10vh;
-    font-size:30px;
+    display:flex;
+    flex-wrap: wrap;
+    padding:2vw;
+    width: 90vw;
+    margin:auto;
+    margin-top:5vh;
     color:white;
+    height:fit-content;
 }
 .aps {
     display:flex;
@@ -164,11 +165,11 @@ nav {
         opacity: 1;
     }
     #classes-landing {
-        bottom:10vh;
+        height:90vw;
         z-index:-1;
     }
     .aps {
-        height:40vh;
+        height:60vw;
         padding-top:10vh;
     }
     .tobecontinued {
