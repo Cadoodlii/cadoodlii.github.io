@@ -102,6 +102,17 @@ nav {
 .tobecontinued:hover {
     color:plum;
 }
+.project {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+}
+.project:hover {
+    border-color: aliceblue;
+}
 
 
 @media screen and (max-width: 768px) {
